@@ -1,0 +1,44 @@
+---
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="animated fadeIn">
+  <div class="container">
+    <div id="background-div">
+      <svg id="background-svg">
+        <lineargradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
+          <stop stop-opacity="0" class="bgColor2" offset="0%" />
+          <stop stop-opacity="0.5" class="bgColor2" offset="10%" />
+          <stop stop-opacity="0.5" class="bgColor1" offset="40%" />
+          <stop stop-opacity="0" class="bgColor1" offset="100%" />
+        </lineargradient>
+        <g id="bg-layer1"></g>
+        <g id="bg-layer2" class="hide"></g>
+        <g id="bg-layer3"></g>
+        <g id="bg-layer4"></g>
+      </svg>
+    </div>
+    <section class="header">
+      {% include header.html %}
+    </section>
+    <section class="content">
+        <div class="col-sm-9 content-div">
+          <div class="page-separator hidden-xs">
+            <h1 class="h1-strip" style="padding-bottom:0em; margin-top: 0;"></h1>
+          </div>
+          <div class="page-separator visible-xs">
+            <h1 class="h1-strip" style="padding-bottom:2em; margin-top: 0;"></h1>
+          </div>
+          <h1 class="post-title page-title" id="title">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+    </section>
+    <section class="footer">
+      {% include footer.html %}
+    </section>
+  </div>
+</body>
+</html>
+

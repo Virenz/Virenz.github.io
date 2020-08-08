@@ -1,0 +1,5 @@
+source "https://gems.ruby-china.com"
+gem "jekyll-theme-potato-hacker" 
+gem "jekyll", "~> 3.3"
+gem "bundler", "~> 2.1.4"
+gem "rake", "~> 12.3.2"
