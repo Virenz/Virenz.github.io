@@ -163,6 +163,14 @@ typora-root-url: ../../virenz.github.io
   </build>
   ```
 
-  > <!-- 本地依赖jar最后打包进主执行jar, 测试比较好用的方式直接mvn install本地.m2库内 -->
-  > mvn install:install-file -Dfile=asm-v7.jar -DgroupId=org.objectweb -DartifactId=asm -Dversion=7 -Dpackaging=jar
+
+
+### 4. 解决的问题
+
+1. 本地依赖jar如果要打包进主执行jar, 实验得出比较好用的方式直接mvn install本地.m2库内，然后dependency
+   `mvn install:install-file -Dfile=asm-v7.jar -DgroupId=org.objectweb -DartifactId=asm -Dversion=7 -Dpackaging=jar`
+
+2. mvn配置路径
+
+   `可以单独下载maven，也可以使用IDEA内置的，设置文件权限即可`
 
