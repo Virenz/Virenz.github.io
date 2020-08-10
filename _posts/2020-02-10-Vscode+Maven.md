@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Vscode+Maven（记录最小化的搭建环境步骤）"
-date: 2020-08-10 13:31:23 +0800
+date: 2020-02-10 13:31:23 +0800
 description: Vscode+Maven（记录最小化的搭建环境步骤）
 categories: blog
 layout: post
