@@ -5,7 +5,8 @@
         <div class="container">
           <div class="navbar-header">
             <a class="navbar-toggle collapsed navbar-icon" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" href="{{ '/' | prepend: site.baseurl }}">
+              data-target="#bs-example-navbar-collapse-1" 
+              {% if site.blog == true %}href="{{ '/' | prepend: site.baseurl }}" {% endif %}>
               <i class="fa fa-bars fa-2x">
               </i>
             </a>
