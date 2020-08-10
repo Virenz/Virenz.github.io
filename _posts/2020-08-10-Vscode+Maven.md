@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vscode+Maven"
+title:  "Vscode+Maven（记录最小化的搭建环境步骤）"
 date: 2020-08-10 13:31:23 +0800
 description: Vscode+Maven（记录最小化的搭建环境步骤）
 categories: blog
@@ -14,7 +14,7 @@ typora-root-url: ../../virenz.github.io
 
 ### 1. VsCode
 
-> VsCode越来越强大，有时候简单修复编译Java工程打开IDEA使用小巧的VsCode反而更加方便快捷，诞生了搭建VsCode+Maven开发环境
+> VsCode越来越强大，有时候简单修改并编译Java工程使用小巧的VsCode反而更加方便快捷，萌生了搭建一套VsCode+Maven开发环境
 
 
 
