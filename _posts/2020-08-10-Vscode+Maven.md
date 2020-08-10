@@ -12,11 +12,13 @@ typora-root-url: ../../virenz.github.io
 
 
 
-###### 1. VsCode
+### 1. VsCode
 
 > VsCode越来越强大，有时候简单修复编译Java工程打开IDEA使用小巧的VsCode反而更加方便快捷，诞生了搭建VsCode+Maven开发环境
 
-###### 2. Maven
+
+
+### 2. Maven
 
 > [Maven](https://maven.apache.org/)是一个软件工具，可帮助您管理Java项目和自动化应用程序构建。用于Visual Studio Code 的[Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)扩展提供了完全集成的Maven支持，使您可以浏览Maven项目，执行Maven命令以及执行构建生命周期和插件的目标。
 >
@@ -26,7 +28,9 @@ typora-root-url: ../../virenz.github.io
 
 ​	 ![配置Maven地址](/assets/img/2020-08-10-2.38.26.png)
 
-###### 3. 编写pom.xm
+
+
+### 3. 编写pom.xm
 
 - 基本配置信息
 
